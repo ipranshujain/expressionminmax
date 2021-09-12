@@ -23,21 +23,21 @@ body{
 .inp label{
     margin:0px 0 0 0;
     margin-top: 10px;
-    font-size: 30px;
+    font-size: 50px;
     border-radius: 20px;
     padding:10px;
     text-decoration: underline dotted #0d8046;
 }
 .inp input{
     margin:10px;
-    font-size: 20px;
+    font-size: 40px;
     border-radius: 10px;
     padding:10px;
     width: 80%;
 }
 .inp button{
     margin:10px;
-    font-size: 16px;
+    font-size: 30px;
     border-radius: 10px;
     padding:10px;
     border:2px black solid;
@@ -58,19 +58,20 @@ body{
 
 .result .res{
     padding-top:20px;
+    font-size: 25px;
 }
 .result .paren{
-    font-size: 30px;
+    font-size: 45px;
     color:rgb(179, 25, 127);
     background-color: rgb(202, 231, 245);
 }
 
 .result .te{
-    font-size: 15px;
+    font-size: 25px;
 }
 
 .result .re2{
-    font-size: 20px;
+    font-size: 40px;
     background-color: rgb(202, 231, 245);
     padding-left: 5px;
     padding-right: 5px;
@@ -81,7 +82,7 @@ body{
     top:5px;
     left:5px;
     padding:7px;
-    font-size: 20px;
+    font-size: 30px;
     border-radius: 50px;
     background-color: black;
     color:white; 
@@ -99,6 +100,7 @@ body{
     left:0px;
     background-color: black;
     color:white;
+    font-size: 20px;
 }
 
 .showinfo{
@@ -111,6 +113,7 @@ body{
     background-color: rgba(8, 37, 70, 0.99);
     transition: 500ms all;
     color:white;
+    font-size: 25px;
 }
 .showinfo div{
     padding:40px;
@@ -122,6 +125,7 @@ body{
     text-align: center;
     /* left:0px; */
     padding:5px;
+    font-size: 20px;
     border-bottom-left-radius: 13px;
     border-bottom-right-radius: 13px;
     background-color: black;
