@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(151, 222, 255);
+    font-family: monospace;
+}
+
+.exp{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.inp{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-top: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.inp label{
+    margin:0px 0 0 0;
+    margin-top: 10px;
+    font-size: 30px;
+    border-radius: 20px;
+    padding:10px;
+    text-decoration: underline dotted #0d8046;
+}
+.inp input{
+    margin:10px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding:10px;
+    width: 80%;
+}
+.inp button{
+    margin:10px;
+    font-size: 16px;
+    border-radius: 10px;
+    padding:10px;
+    border:2px black solid;
+    font-family: monospace;
+    background-color: rgb(6, 107, 85);
+    color:white;
+}
+
+.inp .sm{
+    text-align: center;
+}
+
+.result{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.result .res{
+    padding-top:20px;
+}
+.result .paren{
+    font-size: 30px;
+    color:rgb(179, 25, 127);
+    background-color: rgb(202, 231, 245);
+}
+
+.result .te{
+    font-size: 15px;
+}
+
+.result .re2{
+    font-size: 20px;
+    background-color: rgb(202, 231, 245);
+    padding-left: 5px;
+    padding-right: 5px;
+    color:#4e2b02;
+}
+.info{
+    position:fixed;
+    top:5px;
+    left:5px;
+    padding:7px;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: black;
+    color:white; 
+    z-index: 6;
+
+}
+.info:hover{
+    background-color: rgb(65, 65, 65);
+    transition: 200ms ease-in-out;
+}
+
+.author{
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    background-color: black;
+    color:white;
+}
+
+.showinfo{
+    position:fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 100vh;
+    background-color: rgba(8, 37, 70, 0.99);
+    transition: 500ms all;
+    color:white;
+}
+.showinfo div{
+    padding:40px;
+}
+
+.about{
+    position:absolute;
+    top:0px;
+    text-align: center;
+    /* left:0px; */
+    padding:5px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    background-color: black;
+    color:white;
+   
+}
